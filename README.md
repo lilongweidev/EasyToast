@@ -1,5 +1,6 @@
 # EasyToast
-EasyToast
+
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/success.jpg)
 
 1.Gradle
 
