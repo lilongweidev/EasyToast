@@ -45,10 +45,13 @@ Step 2. Add the dependency
 
 Usage
 
+
 	//不带动画
 	EasyToast.showLongToast(getApplicationContext(),"长消息");
 	
+	
 	EasyToast.showShortToast(getApplicationContext(),"短消息");
+	
 	
 	//带动画表情
         EasyToast.showShortSuccessToast(getApplicationContext(),"成功");
