@@ -44,6 +44,7 @@ Step 2. Add the dependency
 
 
 Usage
+
 	//不带动画
 	EasyToast.showLongToast(getApplicationContext(),"长消息");
 	
