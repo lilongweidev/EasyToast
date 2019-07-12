@@ -17,7 +17,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.lilongweidev:EasyToast:Tag'
+	        implementation 'com.github.lilongweidev:EasyToast:0.1'
 	}
   
 2.Maven
