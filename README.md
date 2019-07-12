@@ -1,6 +1,11 @@
 # EasyToast
 
 ![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/success.jpg)
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/warning.jpg)
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/error.jpg)
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/info.jpg)
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/default.jpg)
+![Alt text](https://github.com/lilongweidev/EasyToast/raw/master/images/confusion.jpg)
 
 1.Gradle
 
