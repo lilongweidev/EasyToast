@@ -1,8 +1,7 @@
 # EasyToast
 EasyToast
 
-
-1. Gradle
+1.Gradle
 
 
 Step 1. Add the JitPack repository to your build file
