@@ -5,7 +5,7 @@ EasyToast
 1. Gradle
 
 
-   Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file
 
 	allprojects {
 		repositories {
@@ -15,7 +15,7 @@ EasyToast
 	}
   
   
-   Step 2. Add the dependency
+Step 2. Add the dependency
 
 	dependencies {
 	        implementation 'com.github.lilongweidev:EasyToast:Tag'
@@ -24,7 +24,7 @@ EasyToast
 2.Maven
 
 
-   Step 1. Add the JitPack repository to your build file
+Step 1. Add the JitPack repository to your build file
 
 	<repositories>
 		<repository>
@@ -33,7 +33,7 @@ EasyToast
 		</repository>
 	</repositories>
   
-  Step 2. Add the dependency
+Step 2. Add the dependency
 
 	<dependency>
 	    <groupId>com.github.lilongweidev</groupId>
