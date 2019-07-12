@@ -8,55 +8,58 @@
     tools:context="com.lanjing.easytoast.MainActivity">
 
     <LinearLayout
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+        <Button
+            android:text="长消息"
+            android:id="@+id/long_msg"
+            android:onClick="showLongToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:text="短消息"
+            android:id="@+id/short_msg"
+            android:onClick="showShortToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <Button
             android:text="成功"
             android:id="@+id/success"
             android:onClick="showSuccessToast"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:text="警告"
             android:onClick="showWarningToast"
             android:id="@+id/warning"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/error"
             android:text="失败"
             android:onClick="showErrorToast"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
-    </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
         <Button
             android:id="@+id/info"
             android:text="信息"
             android:onClick="showInfoToast"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/default_e"
             android:text="默认"
             android:onClick="showDefaultToast"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <Button
             android:id="@+id/confusion"
             android:text="困惑"
             android:onClick="showConfusionToast"
-            android:layout_width="0dp"
-            android:layout_weight="1"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
 

@@ -35,6 +35,14 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
+    public void showShortToast(View view) {
+        EasyToast.showShortToast(getApplicationContext(),"成功");
+    }
+
+    public void showLongToast(View view) {
+        EasyToast.showLongToast(getApplicationContext(),"成功");
+    }
+
     public void showSuccessToast(View view) {
         EasyToast.showShortSuccessToast(getApplicationContext(),"成功");
     }
